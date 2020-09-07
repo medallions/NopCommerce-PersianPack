@@ -1,5 +1,7 @@
 # NopCommerce-PersianPack
-This Package Want to build an Applicable & Appliable Pack in NopCommerce 4.30 & 4.40 Source Code (Not Plugin) and get Usable Persian Calander & Date Picker in Admin or Site mode
+This Package Want to build an Applicable & Appliable Pack in NopCommerce 4.30 & 4.40 Source Code (Maybe Plugin) and get Usable Persian Calander & Date Picker in Admin or Site mode
 
-در تلاش برای تهیه بسته فارسی ساز قابل اعمال بر روی سورس اصلی ناپ کامرس هستیم تا پس از اعمال بروزرسانی بر روی سورس اصلی انتشار یافته محصول کامپایل شده نهایی دارای -نه پلاگین - امکانات فارسی باشد.امید که در این راه با پیشنهادات خود کمک حالمان باشید
+در تلاش برای تهیه بسته فارسی ساز قابل اعمال بر روی سورس اصلی ناپ کامرس هستیم تا پس از اعمال بروزرسانی بر روی سورس اصلی انتشار یافته محصول کامپایل شده نهایی دارای -و شاید پلاگین - امکانات فارسی باشد.امید که در این راه با پیشنهادات خود کمک حالمان باشید
 پس از ارزیابی ها و موفقیت های اولیه نسخه نهایی در قالب پکیج کامل در دسترس عموم خواهد گرفت
+پیش بینی میشود کتابخانه کندو برای زبان فارسی سنگ اندازی کند و پروژه اصلی ناپ کامرس هم تعهدی برای اعمال تغییرات برای حل این مشکل در هسته خود انجام ندهد.تا چه خوش اید و چه قبول افتد
+مدالیون
