@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title></title>
+		
+	<link href="kendo/2020.1.406/styles/web/kendo.default.min.css" rel="stylesheet" />
+    <link href="kendo/2020.1.406/styles/web/kendo.common.min.css" rel="stylesheet" />
+		
+	
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+    <script src="kendo/2020.1.406/js/cultures/kendo.culture.fa-IR.min.js"></script>
+    <script src="kendo/2020.1.406/js/messages/kendo.messages.fa-IR.min.js"></script>
+    <script src="kendo/2020.1.406/js/kendo.ui.core.min.js"></script>
+	<script src="JalaliDate.js"></script>
+	<script src="kendo.web.js"></script>
+	<script src="fa-IR.js"></script>
+	<script src="kendo.calendar.fa.js"></script>
+	<script src="kendo.datepicker.fa.js"></script>
+</head>
+
+<body style="direction: rtl; font-family: tahoma;">
+        <div id="example" class="k-content">
+                <div style="margin-right: 10px;">
+
+                        <input id="datepicker" value="2018/03/22" style="width:150px;" /><br/><br/>
+                        <input id="datepickerShamsi" value="1397/01/02" style="width:150px;" /><br/><br/>
+                        <input id="timepicker" value="16:00" style="width:150px;" /><br/><br/>
+
+                        <div id="calendar"></div>
+                        <div id="calendarShamsi"></div>
+                </div>
+                <script>
+                        $(document).ready(function () {
+
+                                // create DatePicker from input HTML element
+                                $("#datepicker").kendoDatePicker({ culture: "en-US" });
+                                $("#datepickerShamsi").kendoDatePickerShamsi({ culture: "fa-IR" });
+
+                                $("#calendar").kendoCalendar({ culture: "en-US" });
+                                $("#calendarShamsi").kendoCalendarShamsi({ culture: "fa-IR" });
+
+                                $("#timepicker").kendoTimePicker();
+                        });
+                </script>
+        </div>
+</body>
+
+</html>
